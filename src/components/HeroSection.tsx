@@ -26,7 +26,7 @@ const HeroSection = () => {
           <img
             src="/line.png"
             alt="Highlight"
-            className="absolute z-10 w-[140%] h-[150%] max-w-[410px] h-auto left-[-55px] bottom-[-5px] md:w-[410px] md:left-[-30px]"
+            className="absolute z-10 w-[150%] h-[140%] max-w-[410px] h-auto left-[-55px] bottom-[-5px] md:w-[410px] md:left-[-30px]"
           />
         </div>
         <div className="relative ml-12 mt-2 z-20 md:ml-24">
@@ -34,7 +34,7 @@ const HeroSection = () => {
           <img
             src="/line.png"
             alt="Highlight"
-            className="absolute z-10 w-[140%] h-[150%] max-w-[340px] h-auto left-[-55px] bottom-[-5px] md:w-[340px] md:left-[-55px]"
+            className="absolute z-10 w-[150%] h-[140%] max-w-[340px] h-auto left-[-55px] bottom-[-5px] md:w-[340px] md:left-[-55px]"
           />
         </div>
       </motion.div>
