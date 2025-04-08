@@ -43,7 +43,7 @@ const TestimonialsSection = () => {
                 <div key={slide.id} className="w-full flex-shrink-0 px-0">
                   {/* Placeholder for testimonial image */}
                   <div className="aspect-[3/2] bg-gray-200 flex items-center justify-center text-gray-400">
-                    <img src="{slide.source}" />
+                    <img src={slide.source} />
                   </div>
                 </div>
               ))}
