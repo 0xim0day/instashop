@@ -7,7 +7,7 @@ const TestimonialsSection = () => {
   
   // Placeholder for testimonial images
   const testimonialSlides = [
-    { id: 1 },
+    { id: 1, source: '/IMG_2057.jpg' },
     { id: 2 },
     { id: 3 },
     { id: 4 },
@@ -43,7 +43,7 @@ const TestimonialsSection = () => {
                 <div key={slide.id} className="w-full flex-shrink-0 px-0">
                   {/* Placeholder for testimonial image */}
                   <div className="aspect-[3/2] bg-gray-200 flex items-center justify-center text-gray-400">
-                    Відгук {slide.id}
+                    <img src="{slide.source}" />
                   </div>
                 </div>
               ))}
